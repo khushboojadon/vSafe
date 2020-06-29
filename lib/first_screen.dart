@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:vSafe/five_screen.dart';
+import 'package:vSafe/four_screen.dart';
 import 'package:vSafe/second_screen.dart';
+import 'package:vSafe/third_screen.dart';
 
 class FirstScreen extends StatefulWidget {
   @override
@@ -46,7 +49,7 @@ class _FirstScreenState extends State<FirstScreen> {
           GestureDetector(
             onTap: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => SecondScreen()));
+                  MaterialPageRoute(builder: (context) => ThirdScreen()));
             },
             child: Container(
               margin: EdgeInsets.only(top: 30.0, left: 20.0, right: 20.0),
@@ -70,7 +73,7 @@ class _FirstScreenState extends State<FirstScreen> {
           GestureDetector(
             onTap: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => SecondScreen()));
+                  MaterialPageRoute(builder: (context) => (FourScreen())));
             },
             child: Container(
               margin: EdgeInsets.only(top: 30.0, left: 20.0, right: 20.0),
@@ -96,7 +99,7 @@ class _FirstScreenState extends State<FirstScreen> {
           GestureDetector(
             onTap: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => SecondScreen()));
+                  MaterialPageRoute(builder: (context) => FiveScreen()));
             },
             child: Container(
               margin: EdgeInsets.only(top: 30.0, left: 20.0, right: 20.0),

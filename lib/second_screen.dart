@@ -10,7 +10,11 @@ class _SecondScreenState extends State<SecondScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Details"),backgroundColor: Color(0xFF),),
+      backgroundColor: Color(0xFF115173),
+      appBar: AppBar(
+        title: Text("Details"),
+        backgroundColor: Color(0xFF053f5e),
+      ),
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
@@ -35,7 +39,7 @@ class Details extends StatelessWidget {
         child: Padding(
       padding: const EdgeInsets.only(left: 20.0, right: 20.0),
       child: Card(
-        color: Colors.white,
+        color: Color(0xFFd1d4c9),
         elevation: 5,
         clipBehavior: Clip.antiAlias,
         child: Column(
@@ -96,7 +100,7 @@ class Details1 extends StatelessWidget {
         child: Padding(
       padding: const EdgeInsets.only(top: 30.0, left: 20.0, right: 20.0),
       child: Card(
-        color: Colors.white,
+        color: Color(0xFFd1d4c9),
         elevation: 5,
         clipBehavior: Clip.antiAlias,
         child: Column(
@@ -157,7 +161,7 @@ class Details2 extends StatelessWidget {
         child: Padding(
       padding: const EdgeInsets.only(top: 30.0, left: 20.0, right: 20.0),
       child: Card(
-        color: Colors.white,
+        color: Color(0xFFd1d4c9),
         elevation: 5,
         clipBehavior: Clip.antiAlias,
         child: Column(
@@ -216,9 +220,9 @@ class Details3 extends StatelessWidget {
   Widget build(BuildContext context) {
     return ExpandableNotifier(
         child: Padding(
-      padding: const EdgeInsets.only(top: 30.0, left: 20.0, right: 20.0),
+      padding: const EdgeInsets.only(top: 30.0, left: 20.0, right: 20.0,bottom: 20.0),
       child: Card(
-        color: Colors.white,
+        color: Color(0xFFd1d4c9),
         elevation: 5,
         clipBehavior: Clip.antiAlias,
         child: Column(

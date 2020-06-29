@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vSafe/first_screen.dart';
+import 'package:vSafe/onboarding.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
-      home: FirstScreen(),
+      home: Onboarding(),
     );
   }
 }
